@@ -82,10 +82,6 @@ class TestAction(object):
             failedreason = "failed at checkAuth %s " % (sessionid)
             if(data != None):
                 failedreason += "  " + data
-        
-        global successCount
-        global threadLock
-        global failedCount
                     
         if(rep != None and data != None and data ==  ")]}',\n{}"): 
             #Success
