@@ -9,6 +9,7 @@ import random
 
 monkey.patch_all(dns=False)
 
+#This is a test pleas check later
 #threadLock = threading.Lock()
 #successCount = 0;
 #failedCount = 0;
